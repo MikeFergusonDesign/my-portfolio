@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Akira';
+  src: url('fonts/akira.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero {
+  text-align: center;
+  padding: 0 20px center;
+  padding-bottom: 120px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.logo {
+  font-weight: bold;
+  font-family: 'Akira';
+  padding-left: 10px;
+  letter-spacing: -20px;
+  color: #ff2c2c;
+  font-size: 50px;
+}
+
+.nav a {
+  margin-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-family: 'Akira';
+  color: white;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)),
+              url('images/background.png') repeat;
+  background-color: #1a1a1a;
+  background-position: top;
+  background-size: 2000px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+a:link {
+    color: white;
+
+}
+
+a:hover {
+    color:#ff2c2c;
+}
+
+#title {
+  padding: 20px 100px;
+}
+
+#title h1 {
+  font-family: 'Akira';
+  font-size: 40px;
+  color: #ff2c2c;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 800px;
+  margin-top: -80px;
+}
+
+#title h2 {
+  font-family: 'Akira';
+  font-size: 40px;
+  color: #ff2c2c;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 800px;
+}
+
+#title p {
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+hr.fancy {
+  border: none;
+  height: 1px;
+  background: rgb(122, 122, 122);
+  border-radius: 2px;
+  width: 80%;
+  margin: 250px auto 0 auto;
+}
+
+hr.half-line {
+    border: none;
+    background: rgb(122, 122, 122);
+    height: 1px;
+    border-radius: 2px;
+    margin-top: 40px;
+}
+
+hr.bottom {
+    background: rgb(122, 122, 122);
+    border: none;
+    height: 1px;
+    border-radius: 2px;
+    margin-top: 120px;
+}
+
+#section {
+    margin: 20px 150px 0 150px;
+    display: flex;
+    gap: 40px;
+}
+
+#section h1 {
+    color: #ff2c2c;
+    font-family: 'Akira';
+    font-size: 40px;
+    max-width: 400px;
+}
+
+#section p1 {
+    margin-left: auto;
+    max-width: 550px;
+}
+
+#section p2 {
+    max-width: 400px;
+}
+
+#right-paragraphs {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    max-width: 700px;
+    text-align: left;
+    gap: 20px;
+}
+
+#right-paragraphs p1 {
+  line-height: 1.6;
+  font-family: 'Verdana';
+}
+
+#right-paragraphs p2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Verdana';
+}
+
+.hover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.base-image {
+  display: block;
+  padding-left: 100px;
+  padding-top: 50px;
+  width: 650px;
+  height: auto;
+}
+
+.hover-area {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 500px;
+  height: auto;
+}
+
+.hover-area-dm {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 500px;
+  height: auto;
+}
+
+.hover-image {
+  position: absolute;
+  width: 420px;
+  top: 26px;
+  left: 65px;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-area:hover .hover-image {
+  opacity: 1;
+}
+
+.hover-image-dm {
+  position: absolute;
+  width: 435px;
+  top: 16px;
+  left: 60px;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-area-dm:hover .hover-image-dm {
+  opacity: 1;
+}
+
+.hover-row {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px 0;
+}
+
+.hover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.docs-image {
+  max-width: 600px;
+}
+
+.docs-image img {
+  width: 650px;
+  height: auto;
+  display: block;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+footer {
+  background-color: #141414;
+  padding: 40px 20px 40px 20px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+footer h1 {
+  color: #ff2c2c;
+  text-align: left;
+  font-size: 40px;
+  padding-left: 10px;
+  font-family: 'Akira';
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: white;
+  text-align: left;
+  padding-left: 2px;
+  font-family: Verdana; 
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.mockup-section {
+  padding: 100px 100px 80px;
+  text-align: center;
+}
+
+.mockup-title h2 {
+  font-family: 'Akira';
+  font-size: 48px;
+  color: #ff2c2c;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.mockup-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.mockup-images img {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 1));
+  backdrop-filter: blur(10px);
+}

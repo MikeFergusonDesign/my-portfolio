@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Akira';
-  src: url('./fonts/Akira.woff') format('woff');
+  src: url('Portfolio/fonts/Akira.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -55,7 +55,7 @@ body {
   margin-left: 20px;
   padding-right: 20px;
   text-decoration: none;
-  font-family: 'Akira';
+  font-family: 'Akira', sans-serif;
   color: white;
 }
 

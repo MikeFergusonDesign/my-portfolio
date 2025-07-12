@@ -44,7 +44,7 @@ body {
 
 .logo {
   font-weight: bold;
-  font-family: 'Akira';
+  font-family: 'Akira', sans-serif;
   padding-left: 10px;
   letter-spacing: -20px;
   color: #ff2c2c;
@@ -63,7 +63,7 @@ body {
   font-size: 130px;
   margin: 0;
   text-align: left;
-  font-family: 'Akira';
+  font-family: 'Akira', sans-serif;
   padding-left: 100px;
   letter-spacing: 3px;
   color: #ff2c2c;

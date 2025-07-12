@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Akira';
-  src: url('./fonts/Akira.woff') format('woff');
+  src: url('Portfolio/fonts/Akira.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

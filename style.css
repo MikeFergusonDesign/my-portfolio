@@ -55,7 +55,7 @@ body {
   margin-left: 20px;
   padding-right: 20px;
   text-decoration: none;
-  font-family: 'Akira', sans-serif;
+  font-family: 'Akira';
   color: white;
 }
 
@@ -63,7 +63,7 @@ body {
   font-size: 130px;
   margin: 0;
   text-align: left;
-  font-family: 'Akira', sans-serif;
+  font-family: 'Akira';
   padding-left: 100px;
   letter-spacing: 3px;
   color: #ff2c2c;
